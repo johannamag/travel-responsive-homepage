@@ -179,3 +179,34 @@ nav {
   font-size: 1rem;
   font-weight: 400;
 }
+
+@media only screen and (max-width: 1100px) {
+  .icon img {
+    height: 55px;
+    width: auto;
+  }
+  .icon__top {
+    font-size: 1rem;
+  }
+  .icon__bottom {
+    font-size: 1.125rem;
+  }
+  .hero__font {
+    font-size: 2.1875rem;
+  }
+  .features {
+    grid-column: 1 / span 8;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .info {
+    grid-column: 2 / span 6;
+  }
+  .icons {
+    flex-direction: column;
+  }
+  .icon {
+    margin-bottom: 20px;
+  }
+}
